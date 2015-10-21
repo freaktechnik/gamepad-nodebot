@@ -1,0 +1,31 @@
+{
+  "name": "gamepad-nodebot",
+  "version": "1.0.0",
+  "description": "A simple nodebot controlled by a gamepad.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freaktechnik/gamepad-nodebot.git"
+  },
+  "keywords": [
+    "arduino",
+    "gamepad",
+    "johnny",
+    "johnny-five",
+    "robot",
+    "usb"
+  ],
+  "author": "Martin Giger (http://humanoids.be)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freaktechnik/gamepad-nodebot/issues"
+  },
+  "homepage": "https://github.com/freaktechnik/gamepad-nodebot#readme",
+  "dependencies": {
+    "gamepad": "^1.1.0",
+    "johnny-five": "^0.9.1"
+  }
+}
