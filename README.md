@@ -1,6 +1,10 @@
 # gamepad-nodebot
 A simple nodebot controlled by a gamepad.
 
+## Controls
+The movement of the bot is mapped to the right stick of a Sony DualShock 3
+controller. To quit, press the circle button.
+
 ## Usage
 ### Arduino pins
 The script assumes that your pins are used in the following manner:

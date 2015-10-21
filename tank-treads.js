@@ -1,6 +1,7 @@
 /**
  * @author Martin Giger
  * @module tank-treads
+ * @license MIT
  */
 
 var HALF_PI = Math.PI / 2;
