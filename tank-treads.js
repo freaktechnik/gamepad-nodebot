@@ -32,7 +32,7 @@ TankTreads.prototype.rightSpeed = 0;
 /**
  * Updates the leftSpeed and rightSpeed attributes.
  * @argument {number} angle - The angle to head into relative to the current
- *                            direction.
+ *                            direction. Should be between 0 and 2 * PI.
  */
 TankTreads.prototype.setInput = function(angle) {
     var shp = angle <= HALF_PI;
