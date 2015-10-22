@@ -15,13 +15,17 @@ var THREE_HALF_PI = Math.PI + HALF_PI;
 function TankTreads() {
 }
 /**
+ * Speed of the left tread, given by a number between 1 and -1. Negative numbers
+ * mean turning backward.
  * @type {number}
- * @default
+ * @default 0
  */
 TankTreads.prototype.leftSpeed = 0;
 /**
+ * Speed of the right tread, given by a number between 1 and -1. Negative numbers
+ * mean turning backward.
  * @type {number}
- * @default
+ * @default 0
  */
 TankTreads.prototype.rightSpeed = 0;
 
