@@ -34,18 +34,12 @@ TankTreads.prototype.setInput = function(angle) {
     var shp = angle <= HALF_PI;
     var sp = angle <= Math.PI;
     if(shp || (!sp && angle < THREE_HALF_PI)) {
-        if(shp)
-            this.rightSpeed = -Math.cos(angle * 2);
-        else
-            this.rightSpeed = Math.cos(angle * 2);
         this.leftSpeed = shp ? 1 : -1;
+        this.rightSpeed = -this.leftSpeed * Math.cos(angle * 2);
     }
     else {
         this.rightSpeed = sp ? 1 : -1;
-        if(sp)
-            this.leftSpeed = Math.cos(angle * 2 + Math.PI);
-        else
-            this.leftSpeed = -Math.cos(angle * 2 + Math.PI);
+        this.leftSpeed = this.rightSpeed * Math.cos(angle * 2 + Math.PI);
     }
 }
 
