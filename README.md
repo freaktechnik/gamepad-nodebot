@@ -1,4 +1,6 @@
 # gamepad-nodebot
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/freaktechnik/gamepad-nodebot.svg)](https://greenkeeper.io/)
 A simple nodebot controlled by a gamepad.
 
 ## Controls
