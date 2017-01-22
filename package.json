@@ -26,6 +26,6 @@
   "homepage": "https://github.com/freaktechnik/gamepad-nodebot#readme",
   "dependencies": {
     "gamepad": "^1.1.0",
-    "johnny-five": "^0.9.1"
+    "johnny-five": "^0.10.6"
   }
 }
